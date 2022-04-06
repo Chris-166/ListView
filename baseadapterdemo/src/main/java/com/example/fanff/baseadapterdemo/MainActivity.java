@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // Test Git
         List<ItemBean> itemBeanList = new ArrayList<>();
         for (int i = 0; i < 20; i++){
             itemBeanList.add(new ItemBean(R.mipmap.ic_launcher,
